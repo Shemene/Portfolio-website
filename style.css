@@ -68,13 +68,17 @@ nav ul li a:hover::after {
   color: #ababab;
 }
 
-row {
+.row {
   display: flex;
   justify-content: space-between;
-
   flex-wrap: wrap;
 }
 
-.me {
-  size: 100px;
+.about-col-1 {
+  flex-basis: 35%;
+}
+
+.about-col-1 img {
+  width: 25%;
+  border-radius: 15px;
 }
