@@ -44,15 +44,37 @@
               kids, and editing videos as side income.
             </p>
 <div class="tab-titles">
-  <p class="tab-links active-link">Skills</p>
-  <p class="tab-links">Experience</p>
-  <p class="tab-links">Education</p>
+  <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+  <p class="tab-links" onclick="opentab('experience')">Experience</p>
+  <p class="tab-links" onclick="opentab('education')">Education</p>
 </div>
-           
+<div class="tab-contents active-tab" id="skills">
+  <ul>
+<li><span>UI/UX</span><br>Developing Web/App Interfaces</li>
+<li><span>Web Developer</span><br>API intergration,Web App development</li>
+<li><span>Developer</span><br>Front-end development</li>
+</ul>
+</div>
+<div class="tab-contents" id="experience">
+  <ul>
+<li><span>SheCodes bootcamp</span><br>Created weather Web applications with API intergration</li>
+<li><span>Personal Project</span><br>Created this portfolio website</li>
+<li><span>Open sourse</span><br>Contributing to open source on GitHub</li>
+</ul>
+</div>
+<div class="tab-contents" id="education">
+  <ul>
+<li><span>Bsc Information Sytems</span><br>Heriot-Watt University(2015)</li>
+<li><span>SheCodes Plus course </span><br>www.shecodes.io (2023 November)</li>
+<li><span>SheCodes Basic course</span><br>www.shecodes.io (2023 October)</li>
+</ul>
+</div>    
             </div>
           </div>
         </div>
       </div>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
