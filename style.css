@@ -163,8 +163,9 @@ nav ul li a:hover::after {
   background-color: #7e7c7d;
   padding: 40px;
   font-size: 13px;
-  font-weight: 300;
+  font-weight: 500;
   border-right: 10px;
+  transition: background 0.5s, transform 0.5s;
 }
 
 .services-list div i {
@@ -176,10 +177,15 @@ nav ul li a:hover::after {
   text-decoration: none;
   font-weight: 500;
   color: rgb(252, 252, 252);
-  margin-top: 20px; ;
+  margin-top: 20px;
 }
- .services-list div h2{
+.services-list div h2 {
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 15px;
- }
+}
+
+.services-list div:hover {
+  background: #dda3b4;
+  transform: translateY(-10px);
+}
